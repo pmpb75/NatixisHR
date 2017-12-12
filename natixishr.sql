@@ -52,6 +52,9 @@ INSERT INTO `funcionarios` (`BI`, `Nome`, `Data_Nascimento`, `Morada`, `Categori
 -- Indexes for dumped tables
 --
 
+UPDATE `funcionarios` SET `Nome` = 'Nuno' WHERE `funcionarios`.`BI` = 456789123;
+
+DELETE FROM `funcionarios` WHERE `Nome` = 'Rui Mendes';
 --
 -- Indexes for table `funcionarios`
 --
